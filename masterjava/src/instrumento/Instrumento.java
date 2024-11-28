@@ -1,7 +1,7 @@
 package instrumento;
 
 //Clase base Instrumento
-public abstract class Instrumento implements Tocable {
+public abstract sealed class Instrumento implements Tocable permits Violin, Clarinete {
 	private String tipo; // Ejemplo: "viento", "cuerda"
 	private String material; // Ejemplo: "madera", "metal"
 	private double longitud; // En centímetros
