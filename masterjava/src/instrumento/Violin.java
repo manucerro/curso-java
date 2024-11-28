@@ -1,7 +1,7 @@
 package instrumento;
 
 //Subclase Violín
-public class Violin extends Instrumento {
+public final class Violin extends Instrumento {
 	private double tamaño; // Tamaño del violín en pulgadas, ejemplo: 4/4, 3/4
 	
 	// Constructor

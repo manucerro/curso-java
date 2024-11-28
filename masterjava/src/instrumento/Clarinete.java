@@ -1,7 +1,7 @@
 package instrumento;
 
 //Subclase Clarinete
-class Clarinete extends Instrumento {
+public final class Clarinete extends Instrumento {
 	private String tonalidad; // Ejemplo: "Sib", "Do"
 	
 	// Constructor
